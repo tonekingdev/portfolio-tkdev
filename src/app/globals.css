@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base font size */
+@layer base {
+   body {
+    @apply font-primary bg-primary leading-loose;
+   } 
+   html {
+    font-style: 16px;
+   }
+}
+
+/* Header font-family */
+@font-face {
+    font-family: 'laserian';
+    src: url('../../public/fonts/LASER4.TTF');
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'laserian';
+}
